@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16687" started-at="2021-03-12T10:48:13 IST" finished-at="2021-03-12T10:48:30 IST">
+    <groups>
+      <group name="regressionTest">
+        <method signature="Createorg.createorgwithMobile()[pri:0, instance:com.practice.Createorg@6321e813]" name="createorgwithMobile" class="com.practice.Createorg"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="Createorg.createorg()[pri:0, instance:com.practice.Createorg@6321e813]" name="createorg" class="com.practice.Createorg"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test name="Default test" duration-ms="16687" started-at="2021-03-12T10:48:13 IST" finished-at="2021-03-12T10:48:30 IST">
+      <class name="com.practice.Createorg">
+        <test-method status="PASS" signature="createorg()[pri:0, instance:com.practice.Createorg@6321e813]" name="createorg" duration-ms="16610" started-at="2021-03-12T10:48:13 IST" finished-at="2021-03-12T10:48:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createorg -->
+        <test-method status="PASS" signature="createorgwithMobile()[pri:0, instance:com.practice.Createorg@6321e813]" name="createorgwithMobile" duration-ms="5" started-at="2021-03-12T10:48:30 IST" finished-at="2021-03-12T10:48:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createorgwithMobile -->
+      </class> <!-- com.practice.Createorg -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
